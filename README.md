@@ -26,7 +26,7 @@ Alternatively, fetch and decompress the gem manually:
 gem="sqreen"
 version="1.23.0"
 curl -O "https://rubygems.org/downloads/${gem}-${version}.gem"
-mkdir "sqreen-${version}"
+mkdir "${gem}-${version}"
 tar -C "${gem}-${version}" -xf "${gem}-${version}".gem
 tar -C "${gem}-${version}" -xzf "${gem}-${version}"/data.tar.gz
 "${EDITOR:-vim}" "${gem}-${version}"
