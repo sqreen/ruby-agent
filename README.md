@@ -10,9 +10,11 @@ We encourage you to go through the [compatibility](https://docs.sqreen.com/ruby/
 
 See https://docs.sqreen.com.
 
+See also https://blog.sqreen.com/dynamic-instrumentation-agent-for-ruby/ for a "behind-the-scenes" post.
+
 ## Viewing the agent code
 
-You can audit the agent code from the gem itself in your favourite editor:
+The agent code is not open source, but you can audit the agent code from the gem itself in your favourite editor:
 
 ```
 bundle show sqreen  # (deprecated) gives path to the active and installed sqreen gem
